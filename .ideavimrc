@@ -1,0 +1,12 @@
+call plug#begin('~/vimfiles/plugged')
+Plug 'tpope/vim-surround'
+call plug#end()
+
+imap jk <esc>
+set number
+set relativenumber
+:map <F6> :setlocal spell! spelllang=en_us<CR>
+set backspace=indent,eol,start
+vnoremap <C-c> "+y
+map <C-v> "+P
+set splitright
